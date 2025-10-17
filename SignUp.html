@@ -2,25 +2,48 @@
 <html lang="en">
     <head><title>SignUp</title></head>
     <body>
-        <form action="Login.html" method="post">
+        <form action="Login.html">
          <caption><b>SIGNUP PAGE</b></caption><br><br>
-         <label for="name">Name:</label>
-         <input type="text" id="name" name="name"><br><br>
-         <label for="date">date</label>
-         <input type="date" id="date" name="date"><br><br>
-         <caption><b>GENDER</b></caption><br><br>
-    Male:   <input type ="radio" name="gender">
-    Female: <input type ="radio" name="gender">
-    Other:  <input type="radio" name="gender"><br><br>
-         <label for="phoneNumber">phoneNumber</label>
-         <input type="text" id="phoneNumber" name="phoneNumber"><br><br>
-         <label for="email">Email:</label>
-         <input type="text" id="email" name="email"><br><br>
-         <lable for="password">Password:</lable>
-         <input type="password" id="password" name="password"><br><br>
-         <label for="confirmPassword">confirmPassword:</label>
-         <input type="password" id="confirmPassword" name="confirmPassword"><br><br>
-         <button type="submit">SignUp</button>
+         <table>
+           <tr align="right">
+             <td><label>Name:</label></td>
+             <td><input type="text" name="name"></td>
+           </tr>
+           <tr align="right">
+             <td><label>Date:</label></td>
+              <td><input type="date" name="date"></td>
+           </tr
+
+        <tr align="right">
+         <td><h4>Gender</h4><br><br></td>
+         <td><label>Male:</label></td>
+         <td><input type ="radio" name="gender"></td>
+         <td><label>Female:</label></td>
+         <td><input type ="radio" name="gender"></td>
+         <td><label>Other:</label></td>
+         <td><input type ="radio" name="gender"></td>
+        </tr>
+        <tr align="right">
+         <td><label>PhoneNumber:</label></td>
+         <td><input type="text" name="phoneNumber"></td>
+       </tr>
+       <tr align="right">
+         <td><label>Email:</label></td>
+         <td><input type="text" name="email"></td>
+       </tr>
+       <tr align="right">
+         <td><label>Password:</label></td>
+         <td><input type="password" name="password"></td>
+       </tr>
+       <tr align="right">
+         <td><label>confirmPassword:</label></td>
+         <td><input type="password" name="confirmPassword"></td>
+       </tr>
+       <tr align="right">
+         <td><button type="submit">SignUp</button></td>
+         <td><p>Already have an account? <a href="Login.html">Login</a></p></td>
+        </tr>
+         </table>
     </form>             
     </body>
 </html>

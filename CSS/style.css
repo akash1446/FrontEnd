@@ -1,0 +1,78 @@
+ /* p {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: left;
+    line-height: 2.5;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    background-color: rgb(142, 86, 22);
+    border: solid 2px black;
+
+    
+
+}
+h1 {
+    
+    text-align: left;
+    text-transform: uppercase; 
+    text-decoration-line: underline;
+    text-decoration-style:wavy;
+    text-decoration-color:blue;
+    text-shadow: 2px 2px 5px #f000f0;
+    text-decoration: underline none 1px;
+    background-color: yellow;
+    bottom: 10px;
+    position: relative;
+    border:1px solid blueviolet;
+}
+h2.Ram{
+    color: green;
+    background: #f000f0;
+    bottom: 10px;
+    position: relative;
+    border: 1px solid chartreuse;
+    text-align: center;
+}
+
+img{
+    border: 5px solid gold;
+    border-radius: 20px;
+    box-shadow: #3b3b39 10px 10px 20px;
+    margin: 10px;
+
+} */
+
+
+.box {
+       height:200px;
+       width: 200px;
+       background-color: green;
+       padding: 20px;
+       margin: 120px;
+} 
+
+.p{
+    border-width: 10px;
+    border-style: double;
+    border-color: red;
+    border-radius: 30px;
+}  
+
+.bg{
+    height: 200px;
+    width:200px;
+    background-image:url("https://image2url.com/images/1758948876673-5cf312f7-dc05-4152-8107-48de5655234a.jpg");
+    background-size: cover;
+    background-position: right;
+    background-image: diagonal-gradient (45deg, red, yellow);
+    background: radial-gradient(ellipse, red, yellow,white,pink,blue,green); 
+    background-repeat: no-repeat;
+    box-shadow: 8px 8px 15px violet;
+    box-sizing: border-box;
+    box-decoration-break: slice;
+    
+    
+}

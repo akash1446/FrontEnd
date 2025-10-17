@@ -1,0 +1,21 @@
+*{
+padding: 10px;
+margin: 20px; 
+box-sizing:  border-box;
+color:red
+}
+html,body{
+width:100%;
+height: 100%;
+}
+body{
+background-color:gray
+}
+#box{
+height: 100%;
+width: 100%;
+background-image: url("https://media.istockphoto.com/id/1447832634/photo/portrait-of-happy-indian-school-sitting-at-desk-in-classroom-school-kids-with-pens-and.webp?a=1&b=1&s=612x612&w=0&k=20&c=7sJdBHIi06KFu3YnyBiAXiKrmMomXmy15h_oj8WoOn0=");
+background-size: contain;
+background-repeat: no-repeat;
+background-position: top;
+} 
