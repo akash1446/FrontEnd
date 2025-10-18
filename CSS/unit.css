@@ -1,0 +1,29 @@
+@font-face {
+font-family:Arial, Helvetica, sans-serif;
+src: url(./Gilory-Light.ttf);
+} 
+.parent{
+    width: 500px;
+    height: 500px;
+    color: pink;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    border: 5px solid gold;
+    background-image: url("https://media.istockphoto.com/id/519626191/photo/india-national-official-state-flag.webp?a=1&b=1&s=612x612&w=0&k=20&c=QDrD7kVl_xnQXcGihZp1nCT0AIoTP39aP6frGNCcDa0=");
+}
+#child{
+    width: 300px;
+    height: 300px;
+    color:orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    border: 4px solid wheat;
+    background-image:url("https://th.bing.com/th/id/OIP.BsgwfT2eokV-wp-QDWYU5AHaE3?w=245&h=181&c=7&r=0&o=7&cb=12&dpr=1.3&pid=1.7&rm=3");
+}
+h1{
+    font-size: 2rem;
+}
+h2{
+   font-size: 1.5em;   
+}
+ 
