@@ -24,9 +24,11 @@ Li::before{
  .box{
     width: 500px;
     height: 500px;
+    border: 2px solid black;
     background-image: url("https://media.istockphoto.com/id/2230945162/photo/friends-enjoying-with-sparklers-at-home-during-diwali.webp?a=1&b=1&s=612x612&w=0&k=20&c=h6h5VAmha-6GcTrPPlU4Ru1xUhrbRQsoD0VLMRvCC2E=");
     animation-name: wow;
     animation-fill-mode: both;
+   
     
  }
 @keyframes wow { 

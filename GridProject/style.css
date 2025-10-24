@@ -1,0 +1,60 @@
+*{
+box-sizing:  border-box;
+color:green;
+}
+html,body{
+width: 100%;
+height: 100%;
+}
+body{
+background-color:#17ab89;
+}
+.images{
+    height: 100%;
+    width: 100%;
+    margin: 5px;
+    background-color: brown;
+    display: grid;
+    grid-template-areas: "Biryani     Biryani  Biryani        Biryani"
+                         "itemsmenu itemsmenu vegetablesmenu vegetablesmenu"
+                         "flowersmenu     flowersmenu   flowersmenu flowersmenu"
+                         "whiterose       whiterose      jhansi      jhansi";
+    gap: 5px;
+
+}
+@media(min-width:1024px){
+    .images{
+    background-color: gold; 
+    display: grid;
+    grid-template-areas: "Biryani    Biryani    Biryani  whiterose"
+                         "itemsmenu itemsmenu vegetablesmenu vegetablesmenu"
+                         "flowersmenu     flowersmenu   flowersmenu flowersmenu"
+                         "whiterose       whiterose      jhansi      jhansi";
+    border: 2px solid black; 
+    gap:5px
+    }
+}
+img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+
+}
+.image-Biryani{
+    grid-area: Biryani;
+}
+.image-itemsmenu{
+    grid-area: itemsmenu;
+}
+.image-vegetablesmenu{
+    grid-area: vegetablesmenu;
+}
+.image-jhansi{
+    grid-area: jhansi;
+}
+.image-whiterose{
+    grid-area: whiterose;
+}
+.image-flowersmenu{
+    grid-area: flowersmenu;
+}
