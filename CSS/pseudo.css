@@ -51,3 +51,7 @@ Li::before{
      transform: scale(0.5);
     
 }
+p::first-line{
+    font-size: 2rem;
+
+}
