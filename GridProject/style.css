@@ -15,23 +15,21 @@ background-color:#17ab89;
     margin: 5px;
     background-color: brown;
     display: grid;
-    grid-template-areas: "Biryani     Biryani  Biryani        Biryani"
-                         "itemsmenu itemsmenu vegetablesmenu vegetablesmenu"
-                         "flowersmenu     flowersmenu   flowersmenu flowersmenu"
-                         "whiterose       whiterose      jhansi      jhansi";
-    gap: 5px;
+    grid-template-areas: "shirts  shirts shirts  shirts"
+                         "village village sriram sriram"
+                         "flowers  flowers  flowers flowers flowers"
+                         "rose rose  jhansi jhansi";
 
 }
 @media(min-width:1024px){
     .images{
     background-color: gold; 
     display: grid;
-    grid-template-areas: "Biryani    Biryani    Biryani  whiterose"
-                         "itemsmenu itemsmenu vegetablesmenu vegetablesmenu"
-                         "flowersmenu     flowersmenu   flowersmenu flowersmenu"
-                         "whiterose       whiterose      jhansi      jhansi";
+    grid-template-areas: "shirts  shirts shirts  whiterose"
+                         "village  village sriram sriram"
+                         "flower   flowers flowers flowers"
+                         "rose  rose   jhansi  jhansi";
     border: 2px solid black; 
-    gap:5px
     }
 }
 img{
@@ -40,21 +38,21 @@ img{
     object-fit: cover;
 
 }
-.image-Biryani{
-    grid-area: Biryani;
+.image-shirts{
+    grid-area: shirts;
 }
-.image-itemsmenu{
-    grid-area: itemsmenu;
+.image-village{
+    grid-area: village;
 }
-.image-vegetablesmenu{
-    grid-area: vegetablesmenu;
+.image-sriram{
+    grid-area: sriram;
 }
 .image-jhansi{
     grid-area: jhansi;
 }
-.image-whiterose{
-    grid-area: whiterose;
+.image-rose{
+    grid-area: rose;
 }
-.image-flowersmenu{
-    grid-area: flowersmenu;
+.image-flowers{
+    grid-area: flowers;
 }

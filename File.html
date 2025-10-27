@@ -5,12 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>File</title>
     </head>
-    <body bgcolor="yellow`">
-        <form action="/upload" method="post" enctype="multipart/form-data">
+    <body bgcolor="yellow">
+        <form action="upload" method="get">
             <caption><b>Image File Upload</b></caption><br><br>
-            <label for="myfile">Upload a File:</label>
-            <input type="file" accept="image/*"><br><br>
-            <button type="submit">Submit</button>
+            <input type="File" id="fileInput" accept="image/*"><br><br>        
         </form>
     </body>
 </html>

@@ -1,15 +1,18 @@
- /* p {
+  *{
+    background-color: burlywood;
+  }
+  p {
     color: blue;
     font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
+    font-style: arial;
     font-weight: 200;
-    font-size: 20px;
-    text-align: left;
-    line-height: 2.5;
-    letter-spacing: 2px;
-    word-spacing: 5px;
+    font-size: 15px;
+    text-align: middle;
+    line-height: 2;
+    letter-spacing: 1px;
+    word-spacing: 1px;
     background-color: rgb(142, 86, 22);
-    border: solid 2px black;
+    border: solid 2px  orangered    ;
 
     
 
@@ -17,16 +20,16 @@
 h1 {
     
     text-align: left;
-    text-transform: uppercase; 
+    text-transform: lowercase; 
     text-decoration-line: underline;
     text-decoration-style:wavy;
-    text-decoration-color:blue;
-    text-shadow: 2px 2px 5px #f000f0;
+    text-decoration-color:black;
+    text-shadow: 2px 2px 5px black;
     text-decoration: underline none 1px;
-    background-color: yellow;
+    background-color: blue;
     bottom: 10px;
     position: relative;
-    border:1px solid blueviolet;
+    border:1px solid black;
 }
 h2.Ram{
     color: green;
@@ -43,13 +46,13 @@ img{
     box-shadow: #3b3b39 10px 10px 20px;
     margin: 10px;
 
-} */
+}
 
 
 .box {
        height:200px;
        width: 200px;
-       background-color: green;
+       background-color:palevioletred;
        padding: 20px;
        margin: 120px;
 } 
@@ -65,9 +68,9 @@ img{
     height: 200px;
     width:200px;
     background-image:url("https://image2url.com/images/1758948876673-5cf312f7-dc05-4152-8107-48de5655234a.jpg");
-    background-size: cover;
-    background-position: right;
-    background-image: diagonal-gradient (45deg, red, yellow);
+    background-size: contain;
+    background-position: left;
+    background-image: diagonal-gradient (45deg, green, yellow);
     background: radial-gradient(ellipse, red, yellow,white,pink,blue,green); 
     background-repeat: no-repeat;
     box-shadow: 8px 8px 15px violet;

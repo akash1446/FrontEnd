@@ -22,12 +22,13 @@ Li::before{
 
 }
  .box{
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     border: 2px solid black;
     background-image: url("https://media.istockphoto.com/id/2230945162/photo/friends-enjoying-with-sparklers-at-home-during-diwali.webp?a=1&b=1&s=612x612&w=0&k=20&c=h6h5VAmha-6GcTrPPlU4Ru1xUhrbRQsoD0VLMRvCC2E=");
+    background-repeat: no-repeat;
+    animation:both;
     animation-name: wow;
-    animation-fill-mode: both;
    
     
  }
@@ -48,10 +49,9 @@ Li::before{
 
 
 .box:hover{
-     transform: scale(0.5);
+     transform: scale(1.5);
     
 }
 p::first-line{
-    font-size: 2rem;
-
+    font-size: 2em;
 }

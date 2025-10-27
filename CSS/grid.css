@@ -10,21 +10,21 @@ body{
 background-color:slateblue;
 }
 .parent{
-    height: 900px;
-    width: 900px;
-    background-color: slategray;
+    height: 400px;
+    width: 700px;
     background-image: url("https://b.zmtcdn.com/data/pictures/7/21818227/9b1dfb434c33ef75a00381d5c4e325e8.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*");
     background-repeat: no-repeat;
+    border: 2px solid bisque;
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 100px 200px 200px;
+    grid-template-rows: 200px 200px 100px;
     grid-template-areas: "a a b" 
                          "a a b"  
                          "c c c";
 
 }
 .child{
-    height: 400px;
+    height: 500px;
     border: 2px solid black;
     background-image: url("https://b.zmtcdn.com/ata/pictures/1/20243841/680cb0189623199b524dad706e355366_featured_v2.jpg");
     background-repeat: no-repeat;
