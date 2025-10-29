@@ -1,0 +1,39 @@
+html,body{
+width: 100%;
+height: 100%;
+}
+body{
+    background-color: aqua;
+}
+
+.navbar{
+    box-shadow: 0 2px 8px 8px rgba(0,0,0,0,12);
+    color: darkorange;
+}
+.card{
+    border-radius: 20px;
+    border: 2px solid orange;
+}
+.btn-danger {
+  background-color: #ef476f;
+  border: none;
+}
+h1,h2{
+    font-family: 'Gilory', Arial,  sans-serif;
+    color: #ef476f;
+}
+.card img{
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 0.5em 0.5rem 0 0;
+}
+.card{
+    min-height: 260pxpx;
+    box-shadow: 0 4px 15p rgba(0,0,0,08);
+    border-radius: 0.5rem;
+    transition: box-shadow 0.2s;
+}
+.card:hover{
+    box-shadow: 0 5px 25px rgba(0,0,0,.12);
+}

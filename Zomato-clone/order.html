@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Order Food</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Zomato Clone</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+              data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="order.html">Order Food</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container py-5">
+    <h2 class="mb-4 text-center">Place Your Order</h2>
+    <form>
+      <div class="row">
+    
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="https://i.pinimg.com/1200x/ff/c3/f8/ffc3f87ec064d00c50f4b13fc33887c5.jpg" class="card-img-top" alt="Pizza">
+            <div class="card-body">
+              <h5 class="card-title">Pizza</h5>
+              <p class="card-text">Delicious cheese pizza.</p>
+              <input type="number" class="form-control mb-2" name="pizza" min="0" max="20" value="0">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="https://i.pinimg.com/736x/1b/cf/06/1bcf064a606a5bbfede01413437f800d.jpg" class="card-img-top" alt="Burger">
+            <div class="card-body">
+              <h5 class="card-title">Burger</h5>
+              <p class="card-text">Juicy beef burger.</p>
+              <input type="number" class="form-control mb-2" name="burger" min="0" max="20" value="0">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card h-100">
+            <img src="https://i.pinimg.com/736x/ed/0f/a2/ed0fa2b846433255ca01b5d78b8d29aa.jpg" class="card-img-top" alt="Fries">
+            <div class="card-body">
+              <h5 class="card-title">Fries</h5>
+              <p class="card-text">Golden crispy fries.</p>
+              <input type="number" class="form-control mb-2" name="fries" min="0" max="20" value="0">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="mb-3">
+        <label for="customer" class="form-label">Name</label>
+        <input type="text" class="form-control" id="customer" name="customer" required>
+      </div>
+      <div class="mb-3">
+        <label for="address" class="form-label">Delivery Address</label>
+        <input type="text" class="form-control" id="address" name="address" required>
+      </div>
+      <div class="mb-3">
+        <label for="phone" class="form-label">Phone Number</label>
+        <input type="tel" class="form-control" id="phone" name="phone" required>
+      </div>
+      <button type="submit" class="btn btn-danger w-100">Place Order</button>
+    </form>
+  </div>
+
+
+  <footer class="bg-dark text-white py-4 mt-5">
+    <div class="container text-center">
+      <p>&copy; 2025 Zomato Clone. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
