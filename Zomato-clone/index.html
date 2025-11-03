@@ -2,55 +2,51 @@
 <html lang="en">
 
 <head>
-  <title>Zomato</title>
+  <title>Zomato Clone</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image" href="https://i.pinimg.com/1200x/e6/2e/4b/e62e4bcb325a106666623c6d1189167b.jpg">
 </head>
-
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Zomato</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarnav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbar-nav">
-        <ul class="navbar-nav ms-auto">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Zomat</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item"><a class="nav-link" href="order.html">Order Food</a></li>
           <li class="nav-item"><a class="nav-link" href="bookatable.html">Book a Table</a></li>
           <li class="nav-item"><a class="nav-link" href="gold.html">Zomato Gold</a></li>
           <li class="nav-item"><a class="nav-link" href="gettheapp.html">Get the App</a></li>
           <li class="nav-item"><a class="nav-link" href="Login.html">Login</a></li>
           <li class="nav-item"><a class="nav-link" href="signup.html">signUp</a></li>
-        </ul>
-      </div>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" name="food" placeholder="Search food" aria-label="search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
     </div>
-  </nav>
-  <div class="container-fluid  p-0">
+  </div>
+</nav>
+<div class="container-fluid ">
     <div class="hero-section position-relative text-center  text-white"
       style="background-image: url('https://i.pinimg.com/736x/0f/53/0f/0f530fc2d1a3feaef403ca936b218ce5.jpg');background-size: cover; background-position: center; height: 400px;">
-      <div class="d-flex flex-column justify-content-center align-item-center h-100"
+      <div class="d-flex flex-column justify-content-center align-item-center h-500"
         style="background: rgba(red, green, blue, alpha);">
         <h1 class="display-4 mb-4">Discover the best food and drinks!</h1>
         <p class="lead mb-4">Search for restaurants,fruits and dishes near you</p>
-        <form class="w-75" id="searchForm">
-          <div class="input-group">
-            <input type="text" class="form-control" id="searchInput" placeholder="Search for restaurants or dishes">
-            <button class="btn btn-danger" type="submit" id="searchBtn">Search</button>
-          </div>
-        </form>
       </div>
     </div>
-  </div>
-
-  <div class="container ">
-    <div class="row">
-      <div class=" col-md-6 mb-4">
+ <div class="container">
+    <div class="row d-flex">
+      <div class=" col-md-7 mb-6">
         <div class="card Zomato-card">
           <img
             src="https://media.istockphoto.com/id/1410130688/photo/mutton-biryani-served-in-a-golden-dish-isolated-on-dark-background-side-view-indian-food.webp?a=1&b=1&s=612x612&w=0&k=20&c=dgx9Uk9HkGNK3aNMp4OJgKHyV67Jmt0Eg2lJ7t8dOJg="
-            class="card-img-top  image-Biryani" alt="Biryani">
+            class="card-img-top" alt="mutton-biryani" width="500" height="600">
           <div class="card-body">
             <h5 class="card-title">Biryani</h5>
             <div class="d-flex justify-content-between align-items-center">
@@ -59,13 +55,13 @@
           </div>
         </div>
       </div>
-      <div class="container-fluid my-5 ">
-        <div class="row">
-          <div class="col-md-6 col  mb-4">
+      <div class="container my-5 ">
+        <div class="row ">
+          <div class="col-md-7   mb-6">
             <div class="card Zomato-card">
               <img
                 src="https://media.istockphoto.com/id/2207390982/photo/beef-curry-in-rich-sauce-with-basmati-rice.webp?a=1&b=1&s=612x612&w=0&k=20&c=aBP0us84i99hiaeeM4x6FsabdmXpg_HvQbUcxDkrao4="
-                class="card-img-top" alt="Nonvedge">
+                class="card-img-top" alt="Nonvedge" width="500" height="600">
               <div class="card-body">
                 <h5 class="card-title">Nonvedge</h5>
                 <div class="d-flex justify-content-between align-items-center">
@@ -74,13 +70,13 @@
               </div>
             </div>
           </div>
-          <div class="container">
+          <div class="container py-4">
             <div class="row">
-              <div class="col-md-6 mb-4">
+              <div class="col-md-7 mb-6">
                 <div class="card img">
                   <img
                     src="https://media.istockphoto.com/id/1197489317/photo/close-up-of-cake-for-sale-in-bakery.jpg?s=612x612&w=0&k=20&c=vrli_ajrJtvHVw3t9LAdM_7rKvrBIsI-3u69XOWNybM="
-                    class="card-img-top" alt="cakes">
+                    class="card-img-top" alt="cakes" width="500" height="600">
                   <div class="card-body">
                     <h5 class="card-title">cakes</h5>
                    <div class="d-flex justify-content-between align-items-center">
@@ -91,11 +87,11 @@
               </div>
               <div class="container my-5">
                 <div class="row">
-                  <div class="col-md-6 mb-4">
+                  <div class="col-md-7 mb-6">
                     <div class="card img">
                       <img
                         src="https://media.istockphoto.com/id/2209841249/photo/refrigeration-chamber-with-close-up-of-fruits-and-vegetables-in-the-crates.webp?a=1&b=1&s=612x612&w=0&k=20&c=naZgVrdjdfLYZ1sRPSN36OWlDXxgjoEWFWuIawP35sM="
-                        class="card-img-top" alt="Fruits">
+                        class="card-img-top" alt="Fruits" width="500" height="600">
                       <div class="card-body">
                         <h5 class="card-title">Fruits</h5>
                        <div class="d-flex justify-content-between align-items-center">
@@ -104,13 +100,13 @@
                     </div>
                   </div>
                 </div>
-                <div class="container my-5">
+                <div class="container-fluid my-5">
                   <div class="row">
-                    <div class="col-md-6 mb-4">
+                    <div class="col-md-7 mb-5">
                       <div class="card">
                         <img
                           src="https://b.zmtcdn.com/data/pictures/4/20497454/fbda97e510de93500b32cb463f743f56.jpg?fit=around|771.75:416.25&crop=771.75:416.25;*,*"
-                          class="card-img-top" alt="Paniru">
+                          class="card-img-top" alt="Paniru" width="500" height="600">
                         <div class="card-body">
                           <h5 class="card-title">Paniru</h5>
                         <div class="d-flex justify-content-between align-items-center">
@@ -121,10 +117,10 @@
                   </div>
                 <div class="container"> 
                     <div class="row">
-                      <div class="col-md-6 mb-4">
+                      <div class="col-md-7 mb-6">
                         <div class="card">
                           <img src="https://i.pinimg.com/1200x/78/90/4d/78904dc2b18dbfcee783119d33ab330e.jpg"
-                            class="card-img-top" alt="Chicken">
+                            class="card-img-top" alt="Chicken" width="500" height="600">
                           <div class="card-body">
                             <h5 class="card-title">Chicken</h5>
                         <div class="d-flex justify-content-between align-items-center">
@@ -135,10 +131,10 @@
                     </div>
                      <div class="container my-5 "> 
                     <div class="row">
-                      <div class="col-12 col-md-6  col-mod-4 mb-4">
+                      <div class="col-12 col-md-7  col-mod-4 mb-6">
                         <div class="card">
                           <img src="https://media.istockphoto.com/id/964384288/photo/assortment-juices-beverages-drinks-variety-collection-iced-coffee-cafe-latte-milkshake-fruit.jpg?s=612x612&w=0&k=20&c=wu7-Ylgh6wev8BlyskOxrcqdg9BKNcCxZ_qE8b0S748="
-                            class="image-fluid " alt="Jucies">
+                            class="image-fluid" alt="Jucies">
                           <div class="card-body">
                             <h5 class="card-title">Jucies</h5>
                           <div class="d-flex justify-content-between align-items-center">
@@ -147,16 +143,30 @@
                         </div>
                       </div>
                     </div>
-                     <div class="container "> 
+                     <div class="container py-5"> 
                     <div class="row">
-                      <div class="col-12 col-md-6  col-mod-4 mb-4">
+                      <div class="col-12 col-md-7  col-mod-4 mb-6">
                         <div class="card">
                           <img src="https://media.istockphoto.com/id/529543843/photo/interior-of-a-restaurant.jpg?s=612x612&w=0&k=20&c=qsTRNZmIZw6WNKGnAKaQpJuWqwLYySQZbgei9mZQoa8="
-                          class="image-fluid" alt="restaurantTables">
+                          class="image-fluid" alt="restaurantTables" width="500" height="400">
                           <div class="card-body">
                           <h5 class="card-title">restaurantTables</h5>
                           <div class="d-flex justify-content-between align-items-center">
                             <span class="price">₹4000</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="container py-5 "> 
+                    <div class="row">
+                      <div class="col-12 col-md-7  col-mod-4 mb-6">
+                        <div class="card">
+                          <img src="https://i.pinimg.com/1200x/78/1c/68/781c6867d971c5fa7a704c992dc755c3.jpg"
+                          class="image-fluid" alt="Dosa" width="500" height="600">
+                          <div class="card-body">
+                          <h5 class="card-title">Dosa</h5>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <span class="price">₹20</span>
                           </div>
                         </div>
                       </div>
@@ -190,9 +200,9 @@
                     </div>
                     
                     <section class="py-5 bg-light">
-                      <div class="container">
+                      <div class="container py-4"> 
                         <div class="row align-items-center">
-                          <div class="col-lg-6 mb-4 mb-lg-0">
+                          <div class="col-lg-6 mb-7 mb-lg-0">
                             <img src="https://i.pinimg.com/736x/cd/2f/63/cd2f634b64b9509ef433131db8dd0796.jpg"
                               class="img-fluid" alt="About Us">
                           </div>
@@ -291,41 +301,18 @@
                         </div>
                       </div>
                     </footer>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-12 col-sm-6 col-lg-4 mb-4">
-                          <div class="card">Column 1</div>
-                        </div>
-                        <div class="col-12 col-sm-6 col-lg-4 mb-4">
-                          <div class="card">Column 2</div>
-                        </div>
-                        <div class="col-12 col-sm-12 col-lg-4 mb-4">
-                          <div class="card">Column 3</div>
-                        </div>
-                      </div>
                     </div>
                     <script>
-                      document.getElementById('searchForm').addEventListener('submit', function (e) {
-                        e.preventDefault();
-                        let search = document.getElementById('searchInput').value.trim().toLowerCase();
-                        let cards = document.querySelectorAll('.card');
-                        let titles = document.querySelectorAll('.card-title');
-                        let foundAny = false;
+                      document.addEventListener('DocumentContentLoaded', function () {
+                      const searchForm = document.querySelector('form[role="search"]');
 
-                        cards.forEach(function (card, idx) {
-                          let title = titles[idx].textContent.toLowerCase();
-                          if (search === "Biryani" || title.includes(search)) {
-                            card.parentElement.style.display = "";
-                            foundAny = true;
-                          } else {
-                            card.parentElement.style.display = "none";
-                          }
-                        });
-
-                        if (!foundAny && search !== "") {
-                          alert("No results found!");
-                        }
-                      });
+                       searchForm.addEventListener('submit', function (event) {
+                        event.preventDefault();
+                       const searchInput = searchForm.querySelector('input[type="search"]').value;
+                       console.log('Search query:', searchInput);
+                        alert('You searched for: ' + searchInput);
+                   });
+                   });    
                     </script>
 
 </body>

@@ -4,28 +4,33 @@
          <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Colorful elements</title>
-        <caption><b>Inline CSS</b></caption><br>
-        <style>
-             h1{
-                 color: violet;
-             
-              }
+        <link rel="stylesheet" href="style.css"><!--External css-->
+        <!-- Internal CSS -->
+       <style>
+            body{background-color: greenyellow;}
+            h2 {
+                color:green;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 300%
+            }
+            p{
+                color: red;
+                font-family:  Courier;
+                font-size: 160%;
+                border: 2px solid powderblue;
+                padding: 30px;
+                margin: 50px;;
+            }
         </style>
     </head>
 <body>
-     <link rel="stylesheet" media="screen and (max-width: 600px)" href="style.css">
-      <caption><b>External CSS</b></caption><br>
-      <link rel="stylesheet" href="style.css">
-      <caption><b>Internal CSS</b></caption><br>
-      <h1 style="color: rgb(220, 8, 174); background-color: rgb(240, 18, 51);">Welcome to the Colorful World!s</h1><br>
-      <caption><b>Class Selector</b></caption>
+       <link rel="stylesheet" media="screen and (max-width: 600px)" href="style.css">
+      <h1 style="color: blue;">Welcome to the Colorful World!s</h1><br> <!--Inline css-->
       <h2 class="Ram">Hi Ram, Welcome to the colorful world!</h2><br><br>
-      <caption><b>Element Selector</b></caption><br><br>
-      <p>Vasu is going to Hyderabad coaching Institute and Nani is going to vijayawada  Finace company six months training</p><br>
-      <caption><b>ID Selector</b></caption><br>
+      <p style="color: red;">Vasu is going to Hyderabad coaching Institute and Nani is going to vijayawada  Finace company six months training</p><br><!--Inline css-->
       <h3 id="Vasu Praveen">How Can I Help You Vasu Praveen?</h3><br><br>
       <caption><b>Image Gallery</b></caption>
-      <img src="https://image2url.com/images/1760334356686-4689462f-dfe1-4eb7-bf9e-379d0edc90cf.png" width="250" height="150">
-      <img src="https://image2url.com/images/1760334398967-2a9d011b-00bf-42bc-ba1c-cdf40d9f3858.png" width="350" height="250">
+      <img src="https://image2url.com/images/1760334356686-4689462f-dfe1-4eb7-bf9e-379d0edc90cf.png">
+      <img src="https://image2url.com/images/1760334398967-2a9d011b-00bf-42bc-ba1c-cdf40d9f3858.png">
 </body>
 </html>

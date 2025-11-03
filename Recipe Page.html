@@ -1,25 +1,63 @@
 <!DOCTYPE html>
 <html>
-  <head><title>How to Make a Sandwich</title></head>
+  <head><title>How to Make a Sandwich</title>
+   <style>
+    ul{
+      list-style-type: square;
+      margin: 0;
+      padding: 0;
+      overflow:auto;
+      background-color:gray;
+    }
+    li{
+      float: left;
+    }
+    li a{
+      display: block;
+     color: wheat;
+      text-align: start;
+      padding: 16px;
+      text-decoration: none;
+    } 
+      
+    li a:hover{
+      background-color: #2ae1e7;
+    }
+    .coffee{
+      width: 100%;
+      height: 300px;
+      background-image: url("https://i.pinimg.com/736x/87/c0/16/87c01691b2845ddbcf4d5970685bffdc.jpg");
+    
+    }
+    .milk{
+       width: 100%;
+      height: 400px;
+      background-image: url("https://i.pinimg.com/736x/d4/80/de/d480de35b610b0ae07f8c81121bd990e.jpg");
+    }
+
+   </style>
+  </head>
 <body bgcolor="FFFFFG">
-    <h1>vegetables</h1>
-    <h2>Carrot</h2>
-    <h3>CaliFlower</h3>
-    <h4>BeatRoot</h4>
+     <h1>Navigation Bar</h1>
     <ul>
-      <h4><b>Ingredients:</b></h4>
-      <li>Bread</li>
-      <li>Butter</li>
-      <li>snacks</li>
-      <li>cheese</li>
+      <li><a href=" #Home">Home</a></li>
+      <li><a href="#new">News</a> </li>
+      <li><a href="#contact">Contacts</a></li>
+      <li><a href="#about">About</a></li>
     </ul>
+    <h2>An Ordered  Lists</h2>
     <ol>
-      <h4>steps:</h4>
-      <li>Tea</li>
-      <li>Burger</li>
-      <li>coffe</li>
-      <li>Meena</li
+      <li>Tea</li><br>
+      <li>coffee</li><br>
+      <li>Milk</li><br>
     </ol>
+    
+    <dl>
+      <dt class="coffee" style="color:pink; font-size: 20px;">coffee</dt>
+      <dd>- black hot drink</dd>
+      <dt class="milk">Milk</dt>
+      </dd>-white cold drink</dd>
+    </dl>
 <p>A sandwich is two slices of bread with something like meat,<br> cheese, or vegetables between them.</p>
 <p><b>Lorem ipsum <i>dolor sit amet</i>.</b></p>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<hr> Consequuntur quibusdam qui nisi dolorem! Odit, eveniet ut?</p>

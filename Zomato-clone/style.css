@@ -3,11 +3,11 @@ width: 100%;
 height: 100%;
 }
 body{
-    background-color:brown;
+    background-color: rgb(70,130,180);
 }
+
 .card img{
     height: 200px;
-    object-fit: cover;
     width: 100%;
     border-radius: 0.75rem 0.75rem 0 0;
 }
@@ -19,7 +19,7 @@ body{
     box-shadow: 0 8px 24px rgba(0,0,0,.14);
 }
 .hero-section{
-    position: relative;
+    position:absolute
 }
 .hero-section .d-flex {
     background: rgba(0,0,0, .35);
