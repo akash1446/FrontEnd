@@ -111,54 +111,106 @@
 //  citis.pop();
 //  console.log(citis);
 
- //you have an array popular trees names and make a soft copy of the array
- let trees = ['coconut tree','banana tree', 'leaf tree',' orange tree'];
- let softcopy = trees;
- trees.pop();
- console.log(trees);
- console.log(softcopy);
+//  //you have an array popular trees names and make a soft copy of the array
+//  let trees = ['coconut tree','banana tree', 'leaf tree',' orange tree'];
+//  let softcopy = trees;
+//  trees.pop();
+//  console.log(trees);
+//  console.log(softcopy);
 
 
-//you have an array popular fruits names and make a hard copy of the array
-let fruits = ['apple','banana','mango','pineapple','orange']
-let hardcopy =[...fruits];
-fruits.pop();
-console.log(fruits);
-console.log(hardcopy);
+// //you have an array popular fruits names and make a hard copy of the array
+// let fruits = ['apple','banana','mango','pineapple','orange']
+// let hardcopy =[...fruits];
+// fruits.pop();
+// console.log(fruits);
+// console.log(hardcopy);
 
-//merge two arrays of popular and favoriate countries
-var countries = ['pune','Madaras','delhi','America']
-var favoriate = ['Mumbai','chennai','hyderabad','Bangolure']
-console.log(countries.concat(favoriate));
+// //merge two arrays of popular and favoriate countries
+// var countries = ['pune','Madaras','delhi','America']
+// var favoriate = ['Mumbai','chennai','hyderabad','Bangolure']
+// console.log(countries.concat(favoriate));
 
-//find the length of a array and store it in a variable
-let array = [1,2,3,4,5]
-console.log(array.length);
+// //find the length of a array and store it in a variable
+// let array = [1,2,3,4,5]
+// console.log(array.length);
 
-//check if london is there in an array and store it in a variable
-let cities= ["Bimavaram","warganal","London","Araku"];
-let londonlist = cities.includes('London');
-console.log(londonlist);
+// //check if london is there in an array and store it in a variable
+// let cities= ["Bimavaram","warganal","London","Araku"];
+// let londonlist = cities.includes('London');
+// console.log(londonlist);
 
-//write a loop to print the sumof numbers from 1 to 7
-let sum = 0;
-let a =0;
-while(a<=7){
-    sum = sum+a;
-    console.log(a)
-    a++;
+// //write a loop to print the sumof numbers from 1 to 7
+// let sum = 0;
+// let a =0;
+// while(a<=7){
+//     sum = sum+a;
+//     console.log(a)
+//     a++;
+// }
+// console.log(sum)
+
+// // write a while loop  which count downs from 6 to 1
+// let count = [];
+// let i = 6;
+// while(i>0){
+//     count.push(i);
+//     console.log(i);
+//     i--;
+// }
+// console.log(count);
+
+
+
+// add numbers from 1 to 3 by using the do while loop 
+let total =0;
+let k =1;
+do{
+    total = total+k;
+    k++;
 }
-console.log(sum)
+while(k<=3)
+console.log(total);
 
-// write a while loop  which count downs from 6 to 1
-let count = [];
-let i = 6;
-while(i>0){
-    count.push(i);
-    console.log(i);
-    i--;
+console.log("!------------------------------------------------!")
+
+// there is an array of numbers multiply then by 2 and give the result in another array
+let array = [3,4,5,6,7];
+let arr =[];
+for(let i=0;i<array.length;i++){
+    arr.push(array[i]*2);
+     console.log(arr);
 }
-console.log(count);
+console.log(arr);
+
+console.log("----------------------------------------------------")
+
+//display the items from one array to another array by using loops
+let sweets =['Kaja','misure pakka','ladu','kesara'];
+let sweet=[];
+for(let i=0; i<sweets.length;i++){
+    sweet.push(sweets[i]);
+    console.log(sweet);
+}
+console.log(sweet);
+
+console.log("----------------------------------------------------")
+
+//display the flowers from one array to another array by using loops
+let flower = ['sanjaji','sunflower','whiterose','Madharam']
+let selectflower =[];
+  console.log(flower);
+for(let i=0;i<flower.length;i++){
+    if(flower[i]==='whiterose'){
+        break;
+    }
+    selectflower.push(flower[i]); 
+}
+console.log(selectflower);
+
+
+
+
 
 
 
