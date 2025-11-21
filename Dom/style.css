@@ -1,4 +1,6 @@
 *{
+   padding: 2px;
+   margin: 0;
    box-sizing: border-box;
 }
 html,body{
@@ -7,4 +9,16 @@ height: 100%;
 }
 body {
 background-color:black;
+}
+
+.mybox{
+   height: 200px;
+   width: 200px;
+   background-color: blue;
+   font-size: 12px;
+}
+#btn{
+   background-color: blueviolet;
+   width:200px;
+   height: 40px;
 }
