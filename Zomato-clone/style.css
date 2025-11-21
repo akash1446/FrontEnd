@@ -52,3 +52,14 @@ blockquote {
     padding-bottom: 3rem!important;
 
 }
+.carousel-image{
+        height: 100px;
+        width: 40px;
+        object-fit: cover;
+        border-radius: 10px;
+}
+.card-img-top{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
