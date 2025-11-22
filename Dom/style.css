@@ -9,16 +9,37 @@ height: 100%;
 }
 body {
 background-color:black;
+display:flex;
+align-items: center;
+justify-content: center;
 }
 
-.mybox{
+/* .mybox{
    height: 200px;
    width: 200px;
    background-color: blue;
-   font-size: 12px;
+   border: 5PX solid wheat;
+   border-radius: 40%;
+   font-size: 15PX;
 }
 #btn{
    background-color: blueviolet;
    width:200px;
    height: 40px;
+} */
+
+#card{
+   background-color: gray; 
+   padding: 20px;
+   border-radius:10px;
+   text-align: center;
+
+}
+button{
+   padding: 5px 20px;
+   margin-top:5px;
+}
+h3{
+   color:red;
+   margin-top: 5px;
 }
