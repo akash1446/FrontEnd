@@ -100,3 +100,34 @@ btn.addEventListener('click', function(){
     h1.style.color=trophy.pri
 })
 
+var coin = [
+        {
+            toss:'head',
+            pri:'silver',
+            sec:'gold'
+        },
+        {
+            toss:'tail',
+            pri:'silver',
+            sec:'gold'
+        }
+
+
+]
+
+
+var btn=document.querySelector('button');
+var h1 = document.querySelector('h1');
+
+
+btn.addEventListener('click', function(){
+    let rupee= Math.floor(Math.random()*coin.length)
+    let win = coin[rupee];
+    console.log(win.toss);
+    h1.innerHTML=win.toss
+    h1.style.backgroundColor=trophy.sec
+    h1.style.color=trophy.pri
+})
+
+
+
