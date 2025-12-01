@@ -7,9 +7,15 @@
     <link rel="stylesheet" href="task.css">
 </head>
 <body>
-    <div class="card">
-       <img src="https://naasongs.com.co/wp-content/uploads/2025/07/Andhra-King-Taluka-2025.jpeg"  alt="songs">
-       <button>Download</button>
+    <div class="container">
+         <img src="https://naasongs.com.co/wp-content/uploads/2025/07/Andhra-King-Taluka-2025.jpeg"  alt="songs">
+        <h2>Song Download Progress</h2>
+        <audio id="audio" src="song.mp3" preload="auto"></audio>
+        <div class="Progress-bar" id="Progress-bar">
+        <div class="Progress" id="Progress"></div> 
+       </div>
+       <button id ="btn">Start Download</button>
+       <div id="status"></div>
     </div>
     <script src="task.js"></script>
 </body>

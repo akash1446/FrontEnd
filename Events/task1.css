@@ -1,0 +1,52 @@
+*{
+   padding: 2px;
+   margin: 0;
+   box-sizing: border-box;
+}
+html,body{
+width: 100%;
+height: 100%;
+}
+body {
+background-color:blueviolet;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+img{
+    height: 200px;
+    width: 190px;
+    background-color: blueviolet;
+}
+.img-container{
+    height: 200px;
+    width: 150px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+.insta-img{
+    height:auto;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    transition: transform 2s ease;
+}
+.heart-icon{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%) scale(0);
+    font-size: 5rem;
+    color:red;
+    pointer-events: none;
+    transition:  tranform  4s ease;
+    opacity: 1;
+}
+.heart-icon.show{
+    transform: translate(-50%,-50%) scale(2);
+    opacity: 1;
+}
+.insta-img.zoom{
+    transform: scale(2);
+}
