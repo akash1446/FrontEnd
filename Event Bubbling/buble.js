@@ -51,26 +51,35 @@ var arr = [
     },
     
 ]
-var sum = ''
+
+function familyFunction(){
+
+
+var sum = ' '
+
 arr.forEach(function(e,idx){
+       console.log(e,idx)
         sum = sum + `<div id="card">
         <img src=${e.image} alt="user">
-        <h2>${e.username}</h2>
-        <h3>${e.age}</h3>
-        <h5>married:${e.married}</h5>
-        <h4>${e.isstatus}</h4>
-        <button id=${idx}>Add as a Fan</button>
+        <h1>${e.username}</h1>
+        <h5>${e.age}</h5>
+        <h4>married:${e.married}</h4>
+        <h3>${e.isstatus}</h3>
+        <button id=${idx}>Add as a friend</button>
     </div>`
 })
 
-// console.log(sum);
-
-var main=document.querySelector('.main')
+var main=document.querySelector('#main')
 main.innerHTML=sum;
+}
 
+familyFunction()
 
-main.addEventListener('click',function(dets){
-    console.log('hello');
-    console.log(dets.target);
-    console.log(dets.target.id)
+main.addEventListener('click',function(dets) {
+    var gold = arr[dets.target.id]
+    console.log(gold);
+    gold.isstatus='friends'
+    familyFunction()
+   
+
 })
