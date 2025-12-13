@@ -139,6 +139,57 @@ console.log(MathOperations.modulus(29,5));
 
 
 
+// Create a function orderedFood that returns a promise  it should resolve after 3 seconds
+//with pizza delivered
+//bonus:-Add a chance to reject with delivery failed
+function orderedSwiggyFood(){
+    return new Promise((res,rej)=>{
+        setTimeout(() => {
+            let chance=Math.random()<0.7;
+            if(chance){
+                res('pizza Is Delivered');
+            }
+            else{
+                rej('delivery failed');
+            }
+            
+        },1000)
+    })
+}
+orderedSwiggyFood()
+.then(function(){
+    console.log("new Pizza Is Delivered 🍕");
+})
+.catch(function(){
+     console.log('delivery failed ❌')
+
+})
+
+//Example
+function fetchData(){
+    return new Promise((resolve,reject)=>{
+       setTimeout(()=>{
+         const success = true;
+         if(success){
+            resolve('data successfully fetched📊');
+         }
+         else{
+            reject('error fetching data❌');
+         }
+       },100)
+    })
+}
+let response=fetchData()
+console.log(response);
+fetchData()
+.then((data)=>{
+    console.log(data);
+})
+.catch((error)=>{
+    console.log(error);
+})
+
+
 
 
 
