@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100px;
+}
+body{
+    background-color: orange;
+}
+h1{
+   font-size: 30px;
+   font-weight: bold;
+   font-family: 'Courier New', Courier, monospace;
+   border: 10px solid brown;
+   border-radius: 5px;
+   padding: 10px;
+   
+}
+input #taskInput {
+    width: 500%;
+    height: 600px;
+    background-color: pink;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: auto;    
+}
+button{
+    background-color:wheat;
+    padding:5px;
+    width: 50px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    color: black;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    gap:10px
+}
+nav a{
+    align-items: center;
+    justify-content: center;
+
+}
